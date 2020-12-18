@@ -1,6 +1,7 @@
 const testVar = {}
 
-function testFunc() {
+function testFunc(c) {
+  return c.year
   return "hi"
 }
 
