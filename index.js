@@ -15,4 +15,4 @@ const  c = function superbowlWin(record) {
     }
   })
 }
-console.log(c.years)
+
