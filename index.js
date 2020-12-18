@@ -15,4 +15,3 @@ const  c = function superbowlWin(record) {
     }
   })
 }
-
