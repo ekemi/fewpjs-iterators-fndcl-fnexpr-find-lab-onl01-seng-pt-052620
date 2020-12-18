@@ -4,13 +4,14 @@ function testFunc() {
   return "hi"
 }
 
-function superbowlWin(record) {
+const  c = function superbowlWin(record) {
   return record.find(function(re){
     if (re.result==="W"){
-      return (re).year;
+      return re.year;
     }
     else {
       return undefined;
     }
   })
 }
+console.log(c.years)
